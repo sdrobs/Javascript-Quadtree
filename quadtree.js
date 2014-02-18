@@ -96,6 +96,7 @@ quadtree.prototype.findNearestPoint = function(point,radius){
                 if(dist < closestDist || closestDist == -1){
                     closestDist = dist
                     closest = p1
+                    r = dist
                 }
             }
         }
